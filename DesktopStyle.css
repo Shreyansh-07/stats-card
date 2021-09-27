@@ -6,7 +6,7 @@ body{
 div{
   display:grid;
   place-content:center;
-  font-family:san-serif;
+  font-family:sans-serif;
 }
 .image-holder{
   margin: 0 0 0 0;
