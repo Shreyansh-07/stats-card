@@ -1,0 +1,91 @@
+body{
+  height:100vh;
+  width:100vw; 
+  background-color: hsl(233, 47%, 7%);
+}
+div{
+  display:grid;
+  place-content:center;
+}
+.image-holder{
+  margin: 0 0 0 0;
+  width:45vw;
+  padding: 0 0 0 0;
+}
+.text-ctx{
+   display:flex;
+   align-content:center;
+   flex-direction:column;
+   padding-left:5%;
+   padding-right:5%;
+   width:80vw;
+   height:auto;
+}
+.main-card{
+  height:auto;
+  margin:10%;
+  width:90vw;
+  display:flex;
+  background-color:hsl(244, 38%, 16%);
+  border-radius:2%;
+  padding:0;
+}
+.image-header{
+  height:70vh;
+  width:45vw;
+  margin:0 0 0 0;
+  border-top-right-radius:2%;
+  border-bottom-right-radius:2%;
+  position:relative;
+  background-color:#B200E9;
+}
+.image-header:before{
+  position:absolute;
+  content:"";
+  background-image:url("DK.jpg");
+  background-repeat:repeat-x;
+  opacity:0.4;
+  height:70vh;
+  width:45vw;
+}
+.container{
+ display:flex;
+ align-content:center;
+  font-size:1.3rem;
+}
+.stats-ctx{
+  display:flex;
+  font-size:80%;
+  height:10vh;
+  margin-bottom:10%;
+  padding:0 10%;
+}
+.description-ctx{
+  font-size:70%;
+  margin-top:-8%;
+  margin-bottom:10%;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.stats-info-ctx{
+ margin-left:1em;
+ margin-right:1em;
+  color: hsla(0, 0%, 100%, 0.6);
+  display:grid;
+  place-content:center;
+}
+.heading{
+  font-size:2rem;
+  color: hsl(0, 0%, 100%);
+  font-weight:700;
+}
+.sub-stats-head-ctx{
+  color:hsl(0, 0%, 100%);
+  font-weight:700;
+  font-size:120%;
+}
+.sub-stats-ctx{
+  font-size:80%;
+}
+.Hilight-ctx{
+  color:#980BD3;
+}
